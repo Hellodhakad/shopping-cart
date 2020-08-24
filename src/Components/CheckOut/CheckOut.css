@@ -1,0 +1,152 @@
+body {
+    font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial,
+      sans-serif !important;
+    color: #000;
+    background-color: #fff;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  /* ===================Oder Summary Style Start ===================*/
+  .order-summary {
+    padding-top: 100px;
+  }
+  .order-summary .title h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+  .summary-wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .summary-wrap .table-area {
+    width: calc(100% - 330px);
+    width: -webkit-calc(100% - 330px);
+  }
+  .table-area .item-title {
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  .table-area .item {
+    width: 65%;
+  }
+  .table-area .quantity {
+    margin-left: 5%;
+  }
+  .table-area .quantity {
+    width: 15%;
+    text-align: center;
+  }
+  .table-area .price {
+    width: 15%;
+    text-align: center;
+  }
+  .table-area li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .table-area .item .item-list {
+    padding: 5px;
+    border: 1px solid #dadada;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .table-area .item-list .img {
+    display: flex;
+    align-items: center;
+  }
+  .table-area .item-list figure {
+    height: 50px;
+    width: 50px;
+    background-color: #dadada;
+    margin-right: 15px;
+  }
+  .table-area .item-list strong {
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .table-area li .quantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .table-area .quantity .decrease , .table-area .quantity .increase {
+    padding: 4px;
+    cursor: pointer;
+  }
+  .table-area .quantity .count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dadada;
+    min-height: 62px;
+    width: 62px;
+    margin: 0 10px;
+  }
+  .table-area li .price span {
+    font-weight: 700;
+  }
+  .summary-wrap .order-detail {
+    flex: 0 0 300px;
+    border: 1px solid #dadada;
+    padding: 15px 15px 0;
+  }
+  .order-detail h3 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .order-detail ul {
+    margin-bottom: 25px;
+  }
+    
+  .order-detail ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .order-detail ul li span:first-child {
+    width: 75%;
+  }
+  .order-detail ul li span:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+  }
+  .order-detail ul li em {
+    margin-right: 15px;
+  }
+  .order-detail .total {
+    background-color: #efefef;
+    padding: 15px;
+    margin: 0 -15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .order-detail .total strong {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .order-detail .total span {
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
+  /* ===================Oder Summary Style End ===================*/
