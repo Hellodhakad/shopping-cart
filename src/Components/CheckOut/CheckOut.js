@@ -138,4 +138,4 @@ class CheckOut extends Component {
     }
 }
 
-export default CheckOut;
+export default CheckOut
